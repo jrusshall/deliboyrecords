@@ -117,7 +117,7 @@ a:focus {
 
 .navbar-default {
 	background-color:#d79cca;
-	background-color:rgba(215, 156, 202, .95);
+	/*background-color:rgba(215, 156, 202, .95);*/
 	border-color: transparent;
 }
 
