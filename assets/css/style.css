@@ -22,10 +22,10 @@
 	}
 
 body {
-	background: #ffffff;
+	background: #070707;
 	margin: 0;
 	height: 100%;
-	color: #384452;
+	color: #B4FFF6;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	}
@@ -42,7 +42,7 @@ p {
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 24px;
-	color: #384452;
+	color: #B4FFF6;
 	margin-top: 10px;
 }
 
@@ -116,7 +116,8 @@ a:focus {
 }
 
 .navbar-default {
-	background-color:#DBA5CF;
+	background-color:#d79cca;
+	background-color:rgba(215, 156, 202, .95);
 	border-color: transparent;
 }
 
@@ -205,20 +206,20 @@ a:focus {
 ################################################################# */
 
 #headerwrap {
-	background-color: #FFF;
+	background-color: #070707;
 	min-height: 550px;
-	padding-top: 100px;
+	padding-top: 90px;
 	padding-bottom: 0px;
 	text-align: center;
 }
 
 #headerwrap h3, h5 {
-	color: white;
+	color: #070707;
 	font-weight: 400;
 }
 
 #headerwrap h1 {
-	color: white;
+	color: #070707;
 	margin-bottom: 25px;
 }
 
@@ -228,8 +229,12 @@ a:focus {
 
 /* Services Wrap */
 #service {
-	margin-top: 100px;
-	margin-bottom: 80px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+#service h3 {
+	margin-bottom: 25px;
 }
 
 #service i {
@@ -240,8 +245,8 @@ a:focus {
 
 /* Portfolio Wrap */
 #portfoliowrap {
-	padding-top: 60px;
-	margin-bottom: 60px;
+	/*padding-top: 60px;*/
+	margin-bottom: 75px;
 	display: block;
 	text-align: center
 }
@@ -334,13 +339,13 @@ a:focus {
 
 /* Footer */
 #footerwrap {
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-top: 39px;
+	padding-bottom: 39px;
 	background: #DBA5CF;
 }
 
 #footerwrap p {
-	color: #bfc9d3;
+	color: #B4FFF6;
 }
 
 #footerwrap h4 {
