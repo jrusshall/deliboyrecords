@@ -116,7 +116,7 @@ a:focus {
 }
 
 .navbar-default {
-	background-color:#d79cca;
+	background-color:#D79CCA;
 	/*background-color:rgba(215, 156, 202, .95);*/
 	border-color: transparent;
 }
@@ -194,11 +194,11 @@ a:focus {
 }
 
 .hline {
-	border-bottom: 2px solid #384452;
+	border-bottom: 2px solid #B4FFF6;
 }
 
 .hline-w {
-	border-bottom: 2px solid #ffffff;
+	border-bottom: 2px solid #B4FFF6;
 	margin-bottom: 25px;
 }
 /*	################################################################
@@ -286,7 +286,7 @@ a:focus {
 {
 	height:100%;
 	width:100%;
-	background-color:#d79cca;
+	background-color:#D79CCA;
 	background-color:rgba(215, 156, 202, .9);
 	text-align:center;
 }
@@ -339,9 +339,9 @@ a:focus {
 
 /* Footer */
 #footerwrap {
-	padding-top: 39px;
-	padding-bottom: 39px;
-	background: #DBA5CF;
+	padding-top: 73px;
+	padding-bottom: 47px;
+	background: #D79CCA;
 }
 
 #footerwrap p {
