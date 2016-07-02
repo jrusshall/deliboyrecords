@@ -1,28 +1,15 @@
-/*	################################################################
-
-	Author: Carlos Alvarez
-	URL: http://alvarez.is
-
-	Project Name: SOLID - Bootstrap 3 Theme
-	Version: 1.0
-	URL: http://alvarez.is
-
-################################################################# */
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,700,900);
 @import url(http://fonts.googleapis.com/css?family=Lato:400,900);
 @import url("prettyPhoto.css") screen;
 @import url("hoverex-all.css") screen;
 
-/*	################################################################
-	1. GENERAL STRUCTURES
-################################################################# */
 	* {
 		margin: 0;
 		padding: 0px;
 	}
 
 body {
-	background: #070707;
+	background: #1A1A1A;
 	margin: 0;
 	height: 100%;
 	color: #B4FFF6;
@@ -82,9 +69,6 @@ a:focus {
 	text-align: center
 }
 
-/*	################################################################
-	BOOTSTRAP MODIFICATIONS & TWEAKS
-################################################################# */
 .navbar {
 	min-height: 70px;
 	padding-top: 10px;
@@ -93,36 +77,39 @@ a:focus {
 
 .navbar-brand {
 	font-family: 'Raleway', sans-serif;
-	font-weight: 900;
+	font-weight: 800;
+	font-style: italic;
 }
 
 .navbar-header .navbar-brand {
 	color: #B4FFF6;
+	text-shadow: 2px 2px 3px #D79CCA;
+	font-size: 18px;
 }
 
 .navbar-default .navbar-nav > li > a {
 	color: #B4FFF6;
 	font-weight: 700;
-	font-size: 12px;
+	font-size: 13px;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-	color: #384452;
+	color: #D79CCA;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #384452;
-	background-color: transparent;
+	color: #D79CCA;
+	/*background-color: transparent;*/
 }
 
 .navbar-default {
-	background-color:#D79CCA;
+	background-color:#1A1A1A;
 	/*background-color:rgba(215, 156, 202, .95);*/
-	border-color: transparent;
+	border-bottom: 2px solid #B4FFF6;
 }
 
 .dropdown-menu {
-	background: #384452;
+	background: #D79CCA;
 }
 
 .dropdown-menu > li > a {
@@ -133,8 +120,8 @@ a:focus {
 
 .btn-theme {
   color: #fff;
-  background-color: #384452;
-  border-color: #384452;
+  background-color: #D79CCA;
+  border-color: #D79CCA;
   margin: 4px;
 }
 .btn-theme:hover,
@@ -151,7 +138,7 @@ a:focus {
 .dmbutton:active,
 .dmbutton:focus{
 	color: #ffffff;
-	background-color: #222222;
+	background-color: #1A1A1A;
 	border-color: #ffffff;
 }
 .dmbutton {
@@ -201,25 +188,22 @@ a:focus {
 	border-bottom: 2px solid #B4FFF6;
 	margin-bottom: 25px;
 }
-/*	################################################################
-	SITE WRAPS
-################################################################# */
 
 #headerwrap {
-	background-color: #070707;
+	background-color: #1A1A1A;
 	min-height: 550px;
-	padding-top: 90px;
+	padding-top: 70px;
 	padding-bottom: 0px;
 	text-align: center;
 }
 
 #headerwrap h3, h5 {
-	color: #070707;
+	color: #1A1A1A;
 	font-weight: 400;
 }
 
 #headerwrap h1 {
-	color: #070707;
+	color: #1A1A1A;
 	margin-bottom: 25px;
 }
 
@@ -235,6 +219,7 @@ a:focus {
 
 #service h3 {
 	margin-bottom: 25px;
+	text-shadow: 2px 2px 3px #D79CCA;
 }
 
 #service i {
@@ -243,16 +228,14 @@ a:focus {
 	padding: 15px;
 }
 
-/* Portfolio Wrap */
 #portfoliowrap {
-	/*padding-top: 60px;*/
-	margin-bottom: 75px;
 	display: block;
 	text-align: center
 }
 
 #portfoliowrap h3 {
 	margin-bottom: 25px;
+	text-shadow: 2px 2px 3px #D79CCA;
 }
 
 .portfolio {
@@ -264,22 +247,21 @@ a:focus {
 
 .portfolio-item .title:before {border-radius:0; display:none}
 .portfolio-item p {margin:0px 0 30px;}
-.portfolio-item h3 {margin:-10px 0 10px; font-size:16px; text-transform:uppercase;}
+.portfolio-item h3 {margin:-10px 0 10px; font-size:16px; text-transform: ;}
 
 
 .tpl6 h3
 {
 	color:#B4FFF6;
 	margin:0;
-	padding:40px 5px 0;
+	padding: 57px 5px 0px;
 	font-size:16px;
-	text-transform:uppercase;
 }
 .tpl6 .dmbutton
 {
 	display:inline-block;
-	margin:30px 5px 20px 5px;
-	font-size:13px;
+	margin: 0px 5px 20px 5px;
+	font-size:16px;
 }
 
 .tpl6 .bg
@@ -354,19 +336,15 @@ a:focus {
 
 #footerwrap i {
 	font-size: 30px;
-	color: #bfc9d3;
+	color: #B4FFF6;
 	padding-right: 25px;
 }
 
 #footerwrap i:hover {
-	color: #B4FFF6;
+	color: #1A1A1A;
 }
 
-/*	################################################################
-	PAGE CONFIGURATIONS
-################################################################# */
 /* General Tweaks */
-
 #blue {
 	background: #00b3fe;
 	margin-top: 60px;
