@@ -191,9 +191,8 @@ a:focus {
 
 #headerwrap {
 	background-color: #1A1A1A;
-	/*min-height: 400px;*/
+	min-height: 550px;
 	padding-top: 70px;
-	padding-bottom: 0px;
 	text-align: center;
 }
 
@@ -209,6 +208,10 @@ a:focus {
 
 #headerwrap .img-responsive {
 	margin: 0 auto;
+}
+
+.img-spacer {
+	padding-top: 35px;
 }
 
 /* Services Wrap */
