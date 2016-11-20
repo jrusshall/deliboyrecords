@@ -12,7 +12,7 @@ body {
 	background: #000;
 	margin: 0;
 	height: 100%;
-	color: #3498DB;
+	color: #FFF;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	}
@@ -29,7 +29,7 @@ p {
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 24px;
-	color: #3498DB;
+	color: #FFF;
 	margin-top: 10px;
 }
 
@@ -42,6 +42,7 @@ a {
 	padding: 0;
 	margin: 0;
 	text-decoration: none;
+	color:#FFF;
 	-webkit-transition: background-color .4s linear, color .4s linear;
 	-moz-transition: background-color .4s linear, color .4s linear;
 	-o-transition: background-color .4s linear, color .4s linear;
@@ -51,7 +52,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color:#01b2fe;
+  color:#a1a1a1;
 }
 
 ::-moz-selection  {
@@ -82,13 +83,13 @@ a:focus {
 }
 
 .navbar-header .navbar-brand {
-	color: #3498DB;
+	color: #FFF;
 	text-shadow: 2px 2px 3px #D79CCA;
 	font-size: 18px;
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: #3498DB;
+	color: #FFF;
 	font-weight: 700;
 	font-size: 13px;
 }
@@ -105,7 +106,7 @@ a:focus {
 .navbar-default {
 	background-color: #000;
 	/*background-color:rgba(215, 156, 202, .95);*/
-	border-bottom: 2px solid #3498DB;
+	border-bottom: 2px solid #FFF;
 }
 
 .dropdown-menu {
@@ -181,12 +182,7 @@ a:focus {
 }
 
 .hline {
-	border-bottom: 2px solid #3498DB;
-}
-
-.hline-w {
-	border-bottom: 2px solid #3498DB;
-	margin-bottom: 25px;
+	border-bottom: 2px solid #FFF;
 }
 
 #headerwrap {
@@ -225,7 +221,7 @@ a:focus {
 }
 
 #service i {
-	color: #3498DB;
+	color: #FFF;
 	font-size: 60px;
 	padding: 15px;
 }
@@ -254,7 +250,7 @@ a:focus {
 
 .tpl6 h3
 {
-	color:#3498DB;
+	color:#FFF;
 	margin:0;
 	padding: 57px 5px 0px;
 	font-size:16px;
@@ -329,16 +325,16 @@ a:focus {
 }
 
 #footerwrap p {
-	color: #3498DB;
+	color: #FFF;
 }
 
 #footerwrap h4 {
-	color: #3498DB;
+	color: #FFF;
 }
 
 #footerwrap i {
 	font-size: 30px;
-	color: #3498DB;
+	color: #FFF;
 	padding-right: 25px;
 }
 
