@@ -9,8 +9,8 @@ body {
 /* Toggle Styles */
 #menu-toggle {
     background: none;
-    color: #DBDBDB;
-    border-color: #DBDBDB;
+    color: #496467;
+    border-color: #496467;
 }
 #wrapper {
     padding-left: 0;
@@ -74,12 +74,12 @@ body {
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    color: #6F6F6F;
+    color: #496467;
 }
 
 .sidebar-nav li a:hover {
     text-decoration: none;
-    color: #fff;
+    color: #DBDBDB;
     background: rgba(160,160,160,0.1);
 }
 
@@ -96,7 +96,7 @@ body {
 }
 
 .sidebar-nav > .sidebar-brand p {
-    color: #6F6F6F;
+    color: #DBDBDB;
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
